@@ -47,6 +47,39 @@ a {
 li{
     list-style: none;
 }
+
+.common-title{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.common-heading{
+    font-weight: 500;
+    font-size: 2.8rem;
+    letter-spacing: 0.03rem !important;
+}
+
+
+/* navbar  */
+.nav-link{
+    color: var(--bs-main-color) !important;
+}
+.nav-link:hover{
+    color: var(--secondary-color) !important;
+}
+
+a, button {
+    letter-spacing: 0.03rem;
+    word-spacing: .1rem;
+    font-size: 1.15rem !important;
+}
+
+/* hero section start */
+
+.text-light-grey{
+    color: var(--bs-primary-color);
+}
+
 .hero-section .container{
     display: grid;
     place-content: center;
@@ -58,7 +91,55 @@ li{
     position: relative;
 }
 
+.bg-color{
+    background-color: var(--bs-dark-primary);
+}
+
 .hero-section-image{
     width: 75%;
     border-radius: 2rem;
 }
+
+.custom-shape-divider-bottom-1711085859 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1711085859 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1711085859 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* hero section end */
+
+
+/* SERVICE SECTION START */
+
+.service-section{
+    padding: 6rem 0 3rem 0;
+}
+
+.service img{
+    width: 100%;
+}
+
+.card-box {
+    transition: .5s;
+}
+.card-box:hover {
+    box-shadow: 0 6px 13px 0 rgb(0 0 0 / 0.1), 0 8px 9px -1px rgb(0 0 0 / 0.1);
+    transition: .5s;
+}
+
+/* SERVICE SECTION END */
